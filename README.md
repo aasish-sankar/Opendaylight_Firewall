@@ -64,3 +64,11 @@ The Python script (`odl_firewall_toggle.py`) performs the following actions:
 
    ```sh
    sudo python3 odl_firewall_toggle.py
+
+2. In mininet run the command to block traffic:
+   ```sh
+   mininet> py net.block_traffic()
+
+3. In mininet run the command to allow traffic:
+   ```sh
+   mininet> py net.allow_traffic()
